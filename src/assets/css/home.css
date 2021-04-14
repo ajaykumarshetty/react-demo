@@ -1,0 +1,22 @@
+.home .home-align-items {
+  height: 100vh;
+  padding: 0 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .home-align-items select {
+  padding: 8px;
+}
+.home .home-align-items .loading {
+  height: 400px;
+  width: 400px;
+}
+.text-gray {
+  color: gray;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .home .home-align-items {
+    display: unset;
+}
+}
